@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NextGen Web is a premium web development agency creating modern, responsive, high-converting websites for ambitious brands."
+    />
+    <title>NextGen Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="loader" aria-hidden="true">
+      <div class="loader-ring"></div>
+    </div>
+
+    <div class="cursor" aria-hidden="true"></div>
+    <div class="cursor-follower" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="logo-placeholder" href="#home" aria-label="NextGen Web Home">
+          <span class="logo-mark"><img src="logo.png" alt=""></span>
+          <span class="logo-text-wrap">
+            <span class="logo-title">NextGen Web</span>
+            <span class="logo-tagline">Premium Web Development</span>
+          </span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#process">Process</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a class="btn btn-small" href="#contact">Get Free Quote</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <div class="hero-background" aria-hidden="true">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="orb orb-three"></div>
+          <div class="grid-overlay"></div>
+        </div>
+
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Premium Web Agency</p>
+            <h1>Build a Website That Grows Your Business</h1>
+            <p class="hero-subtitle">
+              We design and develop modern, responsive, high-performance websites that help businesses build trust, attract customers and increase sales.
+            </p>
+            <div class="hero-actions">
+              <a class="btn" href="#contact">Get Free Quote</a>
+              <a class="btn btn-ghost" href="#portfolio">View Portfolio</a>
+            </div>
+            <ul class="hero-points">
+              <li><span>⚡</span> High-conversion design</li>
+              <li><span>🚀</span> Fast-loading performance</li>
+              <li><span>🛡️</span> Trusted by ambitious brands</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="mockup-card">
+              <div class="mockup-toolbar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="mockup-content">
+                <img src="hero-illustration.svg" alt="Modern website interface preview" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-indicator" aria-label="Scroll down">
+          <span></span>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container about-grid">
+          <div class="about-content reveal">
+            <p class="eyebrow">About NextGen Web</p>
+            <h2>Luxury digital experiences for ambitious brands.</h2>
+            <p>
+              NextGen Web is a full-service web development agency focused on premium strategy, elegant design, and measurable growth. We build websites that look exceptional and perform beautifully on every screen.
+            </p>
+            <div class="about-pillars">
+              <div>
+                <h3>Mission</h3>
+                <p>Deliver world-class websites that help brands stand out and grow.</p>
+              </div>
+              <div>
+                <h3>Vision</h3>
+                <p>Create digital experiences that feel effortless, premium and unforgettable.</p>
+              </div>
+              <div>
+                <h3>Our Experience</h3>
+                <p>Years of expertise across startups, agencies, schools, healthcare and luxury businesses.</p>
+              </div>
+            </div>
+            <div class="about-list">
+              <span>Why clients trust us</span>
+              <ul>
+                <li>Transparent communication</li>
+                <li>Fast turnaround</li>
+                <li>Clean, scalable code</li>
+                <li>Long-term support</li>
+              </ul>
+            </div>
+          </div>
+          <div class="about-visual reveal">
+            <img src="hero-illustration.svg" alt="Premium agency visuals" />
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Services</p>
+            <h2>Every service designed to elevate your online presence.</h2>
+          </div>
+          <div class="services-grid">
+            <article class="glass-card reveal">
+              <div class="card-icon">💼</div>
+              <h3>Business Website</h3>
+              <p>Elevated digital storefronts for companies ready to impress and convert.</p>
+            </article>
+            <article class="glass-card reveal">
+              <div class="card-icon">🎨</div>
+              <h3>Portfolio Website</h3>
+              <p>Curated websites for creatives, consultants and personal brands.</p>
+            </article>
+            <article class="glass-card reveal">
+              <div class="card-icon">📈</div>
+              <h3>Landing Page</h3>
+              <p>High-impact pages designed to capture leads and drive action.</p>
+            </article>
+            <article class="glass-card reveal">
+              <div class="card-icon">🛍️</div>
+              <h3>E-commerce Website</h3>
+              <p>Modern shopping experiences with smooth checkout and premium presentation.</p>
+            </article>
+            <article class="glass-card reveal">
+              <div class="card-icon">🏫</div>
+              <h3>School Website</h3>
+              <p>Professional, accessible websites for schools and educational institutions.</p>
+            </article>
+            <article class="glass-card reveal">
+              <div class="card-icon">🏥</div>
+              <h3>Hospital Website</h3>
+              <p>Clean, trustworthy platforms for healthcare services and patient support.</p>
+            </article>
+            <article class="glass-card reveal">
+              <div class="card-icon">🍽️</div>
+              <h3>Restaurant Website</h3>
+              <p>Beautiful menus, reservations and delivery experiences built to delight.</p>
+            </article>
+            <article class="glass-card reveal">
+              <div class="card-icon">🏠</div>
+              <h3>Real Estate Website</h3>
+              <p>Luxury property experiences with strong calls to action and listings.</p>
+            </article>
+            <article class="glass-card reveal">
+              <div class="card-icon">🧩</div>
+              <h3>WordPress Website</h3>
+              <p>Custom WordPress builds with flexibility and ease of content management.</p>
+            </article>
+            <article class="glass-card reveal">
+              <div class="card-icon">⚙️</div>
+              <h3>Custom Web Application</h3>
+              <p>Advanced web apps with polished interfaces and reliable performance.</p>
+            </article>
+            <article class="glass-card reveal">
+              <div class="card-icon">✨</div>
+              <h3>Website Redesign</h3>
+              <p>Refresh legacy websites into modern, conversion-ready platforms.</p>
+            </article>
+            <article class="glass-card reveal">
+              <div class="card-icon">🧰</div>
+              <h3>Website Maintenance</h3>
+              <p>Ongoing updates, monitoring and improvements for long-term success.</p>
+            </article>
+            <article class="glass-card reveal">
+              <div class="card-icon">🔍</div>
+              <h3>SEO Optimization</h3>
+              <p>Improve visibility, authority and traffic with technical and on-page SEO.</p>
+            </article>
+            <article class="glass-card reveal">
+              <div class="card-icon">⚡</div>
+              <h3>Speed Optimization</h3>
+              <p>Lightweight pages that load fast and feel instantly responsive.</p>
+            </article>
+            <article class="glass-card reveal">
+              <div class="card-icon">📱</div>
+              <h3>Responsive Design</h3>
+              <p>Pixel-perfect experiences across desktop, tablet and mobile devices.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Why Choose Us</p>
+            <h2>Premium support, polished craft and measurable results.</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <h3>Fast Delivery</h3>
+              <p>Launch quickly without compromising on quality or detail.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>Modern UI Design</h3>
+              <p>Interfaces crafted to feel refined, current and conversion-ready.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>SEO Friendly</h3>
+              <p>Structure and content built to grow organic visibility.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>Responsive Design</h3>
+              <p>Seamless experiences from mobile to large desktop screens.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>Affordable Pricing</h3>
+              <p>Flexible packages suited to early-stage and established brands.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>Clean Code</h3>
+              <p>Structured, maintainable code that scales as your business grows.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>Secure Website</h3>
+              <p>Protection and reliability built into every project from the start.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>Lifetime Support</h3>
+              <p>We stay available for updates, changes and future growth.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>Client Satisfaction</h3>
+              <p>Thoughtful collaboration and results that consistently exceed expectations.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Work Process</p>
+            <h2>A refined process from strategy to launch.</h2>
+          </div>
+          <div class="timeline reveal">
+            <div class="timeline-step">
+              <span>01</span>
+              <h3>Discuss Project</h3>
+              <p>We align on goals, audience and growth opportunities.</p>
+            </div>
+            <div class="timeline-step">
+              <span>02</span>
+              <h3>Planning</h3>
+              <p>Wireframes, content structure and a roadmap for delivery.</p>
+            </div>
+            <div class="timeline-step">
+              <span>03</span>
+              <h3>UI Design</h3>
+              <p>Luxury visuals and a polished interface tailored to your brand.</p>
+            </div>
+            <div class="timeline-step">
+              <span>04</span>
+              <h3>Development</h3>
+              <p>Fast, responsive and scalable implementation with clean code.</p>
+            </div>
+            <div class="timeline-step">
+              <span>05</span>
+              <h3>Testing</h3>
+              <p>Cross-device validation, performance tuning and QA checks.</p>
+            </div>
+            <div class="timeline-step">
+              <span>06</span>
+              <h3>Launch</h3>
+              <p>Your new website goes live with confidence and monitoring.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Portfolio</p>
+            <h2>Selected projects that combine design and conversion.</h2>
+          </div>
+          <div class="portfolio-grid">
+            <article class="portfolio-card reveal">
+              <div class="portfolio-media">
+                <img src="hero-illustration.svg" alt="Modern business website placeholder" />
+              </div>
+              <div class="portfolio-body">
+                <h3>Mehariya Visuals</h3>
+                <p>Brand & Website</p>
+                <div class="portfolio-actions">
+                  <a href="https://balendra8769.github.io/Maheriya-Visuals/" target="_blank">View Project</a>
+                  <a href="https://balendra8769.github.io/Maheriya-Visuals/" target="_blank">Live Demo</a>
+                </div>
+              </div>
+            </article>
+            <article class="portfolio-card reveal">
+              <div class="portfolio-media">
+                <img src="hero-illustration.svg" alt="Luxury landing page placeholder" />
+              </div>
+              <div class="portfolio-body">
+                <h3>Nova Finance</h3>
+                <p>Landing Page</p>
+                <div class="portfolio-actions">
+                  <a href="#contact">View Project</a>
+                  <a href="#contact">Live Demo</a>
+                </div>
+              </div>
+            </article>
+            <article class="portfolio-card reveal">
+              <div class="portfolio-media">
+                <img src="hero-illustration.svg" alt="Premium e-commerce experience placeholder" />
+              </div>
+              <div class="portfolio-body">
+                <h3>Eyan Consultancy</h3>
+                <p>Consultancy</p>
+                <div class="portfolio-actions">
+                  <a href="https://eyan-consultancy.netlify.app/" target="_blank">View Project</a>
+                  <a href="https://eyan-consultancy.netlify.app/" target="_blank">Live Demo</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="tech" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Tech Stack</p>
+            <h2>Modern tools powering premium digital experiences.</h2>
+          </div>
+          <div class="tech-grid">
+            <div class="tech-badge reveal">HTML</div>
+            <div class="tech-badge reveal">CSS</div>
+            <div class="tech-badge reveal">JavaScript</div>
+            <div class="tech-badge reveal">Bootstrap</div>
+            <div class="tech-badge reveal">Tailwind CSS</div>
+            <div class="tech-badge reveal">React</div>
+            <div class="tech-badge reveal">Next.js</div>
+            <div class="tech-badge reveal">Node.js</div>
+            <div class="tech-badge reveal">Express</div>
+            <div class="tech-badge reveal">PHP</div>
+            <div class="tech-badge reveal">MySQL</div>
+            <div class="tech-badge reveal">MongoDB</div>
+            <div class="tech-badge reveal">Firebase</div>
+            <div class="tech-badge reveal">WordPress</div>
+            <div class="tech-badge reveal">Git</div>
+            <div class="tech-badge reveal">GitHub</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section stats-section">
+        <div class="container stats-grid">
+          <div class="stat-card reveal">
+            <strong data-count="10" data-suffix="+">0</strong>
+            <span>Projects Completed</span>
+          </div>
+          <div class="stat-card reveal">
+            <strong data-count="8" data-suffix="+">0</strong>
+            <span>Happy Clients</span>
+          </div>
+          <div class="stat-card reveal">
+            <strong data-count="95" data-suffix="%">0</strong>
+            <span>Client Satisfaction</span>
+          </div>
+          <div class="stat-card reveal">
+            <strong data-count="24" data-suffix="/7">0</strong>
+            <span>Support</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Testimonials</p>
+            <h2>Trusted by founders, teams and modern brands.</h2>
+          </div>
+          <div class="testimonial-slider reveal">
+            <div class="testimonial-track">
+              <article class="testimonial-card active">
+                <p>“The team transformed our outdated site into a premium experience that immediately elevated our credibility.”</p>
+                <div>
+                  <strong>Alicia Brooks</strong>
+                  <span>Founder, Northstar</span>
+                </div>
+              </article>
+              <article class="testimonial-card">
+                <p>“Our new website feels exceptional and brought a noticeable increase in qualified leads within weeks.”</p>
+                <div>
+                  <strong>Marcus Chen</strong>
+                  <span>Marketing Lead, Nova</span>
+                </div>
+              </article>
+              <article class="testimonial-card">
+                <p>“Every detail felt intentional, premium and performance-focused. The launch was seamless.”</p>
+                <div>
+                  <strong>Elena Ruiz</strong>
+                  <span>Director, Monarch</span>
+                </div>
+              </article>
+            </div>
+            <div class="slider-dots" aria-label="Testimonial navigation">
+              <button class="dot active" aria-label="Show testimonial 1"></button>
+              <button class="dot" aria-label="Show testimonial 2"></button>
+              <button class="dot" aria-label="Show testimonial 3"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="faq" class="section">
+        <div class="container faq-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">FAQ</p>
+            <h2>Questions clients ask before they begin.</h2>
+          </div>
+          <div class="faq-list reveal">
+            <div class="faq-item active">
+              <button class="faq-question">How long does a project take?</button>
+              <div class="faq-answer">
+                <p>Most projects are delivered within 2 to 6 weeks depending on scope and complexity.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Do you build custom features?</button>
+              <div class="faq-answer">
+                <p>Yes. We build polished custom interfaces and advanced functionality for growing brands.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Can you redesign an existing website?</button>
+              <div class="faq-answer">
+                <p>Absolutely. We can modernize an existing platform and improve performance significantly.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something remarkable together.</h2>
+            <p>Tell us about your goals and we’ll shape a premium website experience around your brand.</p>
+            <div class="contact-details">
+              <p><strong>Email</strong><br /><a href="team.nextgenweb@gmail.com">team.nextgenweb@gmail.com</a></p>
+              <p><strong>Phone</strong><br />+91 85116 37072 <br>+91 8726800357</p>
+              <p><strong>Location</strong><br />Ahmedabad,India</p>
+            </div>
+          </div>
+
+          <form id="contact-form" class="contact-form reveal">
+            <div class="form-row">
+              <label>
+                Full Name
+                <input type="text" name="fullName" placeholder="Alicia Brooks" />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="you@example.com" />
+              </label>
+            </div>
+            <div class="form-row">
+              <label>
+                Phone
+                <input type="tel" name="phone" placeholder="+1 555 123 4567" />
+              </label>
+              <label>
+                Company
+                <input type="text" name="company" placeholder="Your brand" />
+              </label>
+            </div>
+            <label>
+              Budget
+              <input type="text" name="budget" placeholder="Select a range" />
+            </label>
+            <label>
+              Project Details
+              <textarea name="message" rows="5" placeholder="Tell us about your vision, timeline and goals."></textarea>
+            </label>
+            <button class="btn" type="submit">Submit Inquiry</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="logo-placeholder footer-logo" href="#home">
+            <span class="logo-mark"><img src="logo.png" alt=""></span>
+            <span>NextGen Web</span>
+          </a>
+          <p>Premium websites that combine strategy, design and performance.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Social Media</h4>
+          <div class="social-links">
+            <a href="https://www.instagram.com/nextgen_.web?igsh=MWY3MmVxY3RtaWJkag==" target="_blank" aria-label="Instagram">Instagram</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="Dribbble">Dribbble</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> NextGen Web. All rights reserved.</p>
+      </div>
+      <a class="back-to-top" href="#home" aria-label="Back to top">↑</a>
+    </footer>
+  </body>
+</html>
